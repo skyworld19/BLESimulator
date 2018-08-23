@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_automation_setting.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/automation_setting_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#33A4A4A4">
+
+        <ImageButton
+            android:id="@+id/imagebutton_back_automation_setting_fragment"
+            style="@style/SelectableItemBackground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="backcontrolbutton"
+            android:src="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView_automation_setting_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Automation Setting"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/connection_status_automation"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/automation_setting_toolbar_layout"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/orange"/>
+
+    <TextView
+        android:id="@+id/textOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/automation_setting_toolbar_layout"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="BLE Connected \nEngine Start"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/textTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textOne"
+        android:layout_below="@+id/textOne"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="Door Unlock\n(Walk In)"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/textThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textTwo"
+        android:layout_below="@+id/textTwo"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="Welcome Light"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+    <TextView
+        android:id="@+id/textFour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textThree"
+        android:layout_below="@+id/textThree"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="Door Lock\n(Walk Out)"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"/>
+
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="400dp"
+        android:background="#000"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_alignRight="@id/textOne"
+        android:id="@+id/view5" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/textOne"
+        android:id="@+id/view7" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/textTwo"
+        android:id="@+id/view6" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/textThree"
+        android:id="@+id/view8" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout3"
+        android:layout_toEndOf="@+id/textTwo"
+        android:layout_marginStart="27dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignTop="@+id/textOne"
+        android:layout_alignStart="@+id/linearLayout3">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/linearLayout2"
+        android:layout_marginBottom="5dp">
+
+    </LinearLayout>
+
+    <Switch
+        android:id="@+id/ble_conn_eng_auto_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textOne"
+        android:layout_alignBottom="@+id/textOne"
+        android:layout_alignStart="@+id/linearLayout2"
+        android:text="Manual   "
+        android:textSize="15sp"/>
+
+    <Switch
+        android:id="@+id/near_dist_door_unlock_auto_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textTwo"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:text="Manual   "
+        android:textSize="15sp"/>
+
+    <Switch
+        android:id="@+id/welcome_light_auto_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textThree"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:text="Off   "
+        android:textSize="15sp"/>
+
+    <Switch
+        android:id="@+id/near_dist_door_lock_auto_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textFour"
+        android:layout_toEndOf="@+id/linearLayout2"
+        android:text="Manual   "
+        android:textSize="15sp"/>
+
+</RelativeLayout>

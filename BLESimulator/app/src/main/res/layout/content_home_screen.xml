@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.example.obigo.blesim.view.ui.HomeScreen" />
+
+        <variable
+            name="switchdata"
+            type="com.example.obigo.blesim.model.SwitchData" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?android:attr/actionBarSize"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        tools:context=".view.ui.HomeScreen"
+        tools:showIn="@layout/app_bar_home_screen">
+
+        <RelativeLayout
+            android:id="@+id/monitorView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="45">
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/checkbox_bluetooth"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:background="@{checkboxBluetooth.checked ? @drawable/ic_bluetooth_connected : @drawable/ic_bluetooth_disconnected}"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_engine"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:background="@{checkboxEngine.checked ? @drawable/ic_engine_on : @drawable/ic_engine_off}"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_horn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:background="@{checkboxHorn.checked ? @drawable/ic_horn_on : @drawable/ic_horn_off}"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_light"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:background="@{checkboxLight.checked ? @drawable/ic_light_on : @drawable/ic_light_off}"/>
+
+                <CheckBox
+                    android:id="@+id/checkbox_defrost"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="15dp"
+                    android:button="@null"
+                    android:clickable="false"
+                    android:background="@{checkboxDefrost.checked ? @drawable/ic_defrost_on : @drawable/ic_defrost_off}"/>
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/linearLayout">
+                <ImageView
+                    android:id="@+id/imageView_car"
+                    android:layout_width="300dp"
+                    android:layout_height="400dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/img_car" />
+
+                <ImageView
+                    android:id="@+id/imageView_unlock_left_front"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/imageView_car"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="35dp"
+                    android:src="@drawable/img_car_left_front_green" />
+
+                <ImageView
+                    android:id="@+id/imageView_unlock_left_back"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/imageView_car"
+                    android:layout_below="@+id/imageView_unlock_right_front"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="-25dp"
+                    android:src="@drawable/img_car_left_back_green" />
+
+                <ImageView
+                    android:id="@+id/imageView_unlock_right_front"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView_car"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="12dp"
+                    android:visibility="visible"
+                    android:src="@drawable/img_car_right_front_green" />
+
+                <ImageView
+                    android:id="@+id/imageView_unlock_right_back"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView_car"
+                    android:layout_below="@+id/imageView_unlock_right_front"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="-25dp"
+                    android:src="@drawable/img_car_right_back_green" />
+
+                <ImageView
+                    android:id="@+id/imageView_lock_left_front"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/imageView_car"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="35dp"
+                    android:src="@drawable/img_car_left_front_red" />
+
+                <ImageView
+                    android:id="@+id/imageView_lock_left_back"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/imageView_car"
+                    android:layout_below="@+id/imageView_lock_right_front"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="-25dp"
+                    android:src="@drawable/img_car_left_back_red" />
+
+                <ImageView
+                    android:id="@+id/imageView_lock_right_front"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView_car"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="12dp"
+                    android:visibility="visible"
+                    android:src="@drawable/img_car_right_front_red" />
+
+                <ImageView
+                    android:id="@+id/imageView_lock_right_back"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/imageView_car"
+                    android:layout_below="@+id/imageView_lock_right_front"
+                    android:layout_marginEnd="12dp"
+                    android:layout_marginTop="-25dp"
+                    android:src="@drawable/img_car_right_back_red" />
+
+                <TextView
+                    android:id="@+id/text_car_temperature"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@id/imageView_lock_left_back"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/text_car_idle_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView_unlock_left_front"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="55">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"
+                        android:text="Engine"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_label" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_engine"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:checked="false"
+                            android:onCheckedChanged="@{activity::onCheckedChanged}"
+                            android:scaleX="2"
+                            android:scaleY="2" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"
+                        android:text="Door Lock"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_label" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_door"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:checked="false"
+                            android:onCheckedChanged="@{activity::onCheckedChanged}"
+                            android:scaleX="2"
+                            android:scaleY="2" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"
+                        android:text="Light"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_label" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_light"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:checked="false"
+                            android:onCheckedChanged="@{activity::onCheckedChanged}"
+                            android:scaleX="2"
+                            android:scaleY="2" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"
+                        android:text="Horn&amp;Light"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_label" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_horn_light"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:checked="false"
+                            android:onCheckedChanged="@{activity::onCheckedChanged}"
+                            android:scaleX="2"
+                            android:scaleY="2" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"
+                        android:text="Defrost"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_label" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/switch_defrost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:checked="false"
+                            android:onCheckedChanged="@{activity::onCheckedChanged}"
+                            android:scaleX="2"
+                            android:scaleY="2" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="60"
+                        android:text="Climate Control"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_label" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_short_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:layout_gravity="center"
+                        android:text=" Temperature :"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_small_label" />
+                    <TextView
+                        android:id="@+id/text_temperature"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15"
+                        android:text=""
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_small_label" />
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+                        <SeekBar
+                            android:id="@+id/seekbar_temperature"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:max="100"
+                            android:progress="50"
+                            android:onProgressChanged="@{activity::onTemperatureProgressChanged}"/>
+                    </RelativeLayout>
+                    <Button
+                        android:id="@+id/btn_temperature"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15"
+                        android:layout_gravity="center_vertical"
+                        android:text="SET"
+                        android:onClick="@{activity::onTemperatureClick}"
+                        android:textSize="20dp"
+                        android:layout_marginEnd="15dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/function_view_short_height"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="30"
+                        android:layout_gravity="center"
+                        android:text=" Idle Time :"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_small_label" />
+                    <TextView
+                        android:id="@+id/text_idle_time"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="15"
+                        android:text=""
+                        android:gravity="center"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/function_name_small_label" />
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="40"
+                        android:gravity="center">
+                        <SeekBar
+                            android:id="@+id/seekbar_idletime"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:max="8"
+                            android:progress="3"
+                            android:onProgressChanged="@{activity::onIdleTimeProgressChanged}"/>
+                    </RelativeLayout>
+                    <Button
+                        android:id="@+id/btn_idle_time"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="15"
+                        android:layout_gravity="center_vertical"
+                        android:text="SET"
+                        android:onClick="@{activity::onIdleTimeClick}"
+                        android:textSize="20dp"
+                        android:layout_marginEnd="15dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>

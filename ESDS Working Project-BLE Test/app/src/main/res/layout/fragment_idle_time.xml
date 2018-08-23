@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_idle_time.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please set the engine running time"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textColor="#000"
+        android:layout_above="@+id/seek_bar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView4" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:id="@+id/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="03 min"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:typeface="monospace"
+        android:layout_above="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/text_view_seekbar_progress" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:id="@+id/idleTime_button"
+        android:onClick="onIdleTimeClick"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_centerHorizontal="true" />
+    <hyundai.esds.CircularSeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="0dp"
+        app:start_angle="270"
+        app:end_angle="270"
+        app:circle_x_radius="125dp"
+        app:circle_y_radius="125dp"
+        app:circle_stroke_width="1dp"
+        app:use_custom_radii="true"
+        app:progress="0"
+        app:max="8"
+        android:layout_centerInParent="true"
+        app:circle_progress_color="@android:color/transparent"
+        app:pointer_alpha_ontouch="100"
+        app:pointer_color="#0174DF"
+        app:pointer_halo_color="#880174DF"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+/*
+ * ***************************************************************************************
+ *  ** Hyundai Motor India Engineering Pvt Ltd
+ *  ** Electronics Engineering Dept-1., - Software Development Team
+ *  ** Do Not Copy Without Prior Permission
+ *  *****************************************************************************************
+ *  ** Project Name: ESDS Development
+ *  ** Target: Proof Of Concept (NU Head Unit)
+ *  ** File Name: AboutActivity.java
+ *  ** @Author: Sai Sriram Madhiraju
+ *  ** @Co-Author: Sivaram Boina
+ *  ** Completion Date: 31-10-2017
+ *  ***************************************************************************************
+ */
+
+include ':app'

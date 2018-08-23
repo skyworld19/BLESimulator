@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ /****************************************************************************************
+  ~  ** Hyundai Motor India Engineering Pvt Ltd
+  ~  ** Electronics Engineering Dept-1., - Software Development Team
+  ~  ** Do Not Copy Without Prior Permission
+  ~  *****************************************************************************************
+  ~  ** Project Name: ESDS Development
+  ~  ** Target: Proof Of Concept (NU Head Unit)
+  ~  ** File Name: AboutActivity.java
+  ~  ** @Author: Sai Sriram Madhiraju
+  ~  ** @Co-Author: Sivaram Boina
+  ~  ** Completion Date: 31-10-2017
+  ~  ****************************************************************************************/
+  -->
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_account_sharing.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/White"
+              android:clickable="true"
+              android:focusable="true"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/status_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#33A4A4A4">
+
+        <ImageButton
+            android:id="@+id/imagebutton_back_status_fragment"
+            style="@style/SelectableItemBackground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="backcontrolbutton"
+            android:src="?attr/homeAsUpIndicator"/>
+
+        <TextView
+            android:id="@+id/textView_accountsharingfragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="19dp"
+            android:layout_toEndOf="@+id/imagebutton_back_status_fragment"
+            android:text="Vehicle Status"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/status_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:text="Refresh"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/rec_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Received TIme: "
+        android:textAlignment="textEnd"
+        android:textColor="@color/Black"
+        android:textSize="18sp"/>
+
+    <RelativeLayout
+        android:id="@+id/engine_status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/Gainsboro">
+
+        <TextView
+            android:id="@+id/engine_start_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/climate_control_label"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="22dp"
+            android:text="Engine Start"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/climate_control_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/engine_start_label"
+            android:layout_centerVertical="true"
+            android:text="Climate Control"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/temperature_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/climate_control_label"
+            android:layout_below="@+id/climate_control_label"
+            android:layout_marginTop="21dp"
+            android:text="Temperature"
+            android:textColor="@color/Black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/engine_start_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/engine_start_label"
+            android:layout_alignBottom="@+id/engine_start_label"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="55dp"
+            android:text="OFF"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cimlate_control_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/temperature_label"
+            android:layout_alignStart="@+id/engine_start_status"
+            android:text="OFF"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/temperature_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/temperature_label"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="38dp"
+            android:text="28.0 C / "
+            android:textColor="@color/Blue"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/door_lock_status_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="@color/Gainsboro">
+
+        <TextView
+            android:id="@+id/door_lock_status_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textview_defrost"
+            android:layout_below="@+id/textview_defrost"
+            android:layout_marginTop="16dp"
+            android:text="Door Lock/ Unlock Status"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/door_lock_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/door_lock_status_label"
+            android:layout_alignBottom="@+id/door_lock_status_label"
+            android:layout_alignStart="@+id/textview_defrost_status"
+            android:text="Lock"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="125dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="80dp"
+            android:rotation="90"
+            app:srcCompat="@drawable/car_top_view" />
+
+        <TextView
+            android:id="@+id/textview_front_left_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textview_rear_left_status"
+            android:layout_marginBottom="23dp"
+            android:layout_marginEnd="42dp"
+            android:layout_toStartOf="@+id/textview_trunk_status"
+            android:text="OPEN"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_rear_left_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView9"
+            android:layout_alignEnd="@+id/textview_front_left_status"
+            android:text="CLOSE"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_front_right_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textview_front_left_status"
+            android:layout_alignBottom="@+id/textview_front_left_status"
+            android:layout_alignStart="@+id/textview_rear_right_status"
+            android:text="CLOSE"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_rear_right_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textview_rear_left_status"
+            android:layout_alignBottom="@+id/textview_rear_left_status"
+            android:layout_marginStart="40dp"
+            android:layout_toEndOf="@+id/textview_trunk_status"
+            android:text="OPEN"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_trunk_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="14dp"
+            android:text="CLOSE"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_defrost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toStartOf="@+id/textview_rear_left_status"
+            android:text="Defrost"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textview_defrost_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textview_defrost"
+            android:layout_alignBottom="@+id/textview_defrost"
+            android:layout_toEndOf="@+id/textview_front_right_status"
+            android:text="OFF"
+            android:textColor="@color/Red"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/door_lock_status_label"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:text="Door Open/Close Status"
+            android:textColor="@color/Black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>

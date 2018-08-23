@@ -1,0 +1,36 @@
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: strings.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<resources>
+    <string name="app_name">1.0.0 ESDS</string>
+
+    <string name="number_zero">0</string>
+    <string name="number_one">1</string>
+    <string name="number_two">2</string>
+    <string name="number_three">3</string>
+    <string name="number_four">4</string>
+    <string name="number_five">5</string>
+    <string name="number_six">6</string>
+    <string name="number_seven">7</string>
+    <string name="number_eight">8</string>
+    <string name="number_nine">9</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_backspace">Back</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="permission_rationale">Need Location Access for finding nearby BLE devices</string>
+    <string name="account_sharing">Account Sharing</string>
+    <string name="car_name">ELANTRA</string>
+    <string name="crash_toast_text">APP CRASHED</string>
+    <string name="toast_crash">Testing Acra</string>
+</resources>

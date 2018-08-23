@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_climate_control_configuration.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:background="?android:colorBackground"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/tolbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#33A4A4A4">
+
+        <ImageButton
+            android:id="@+id/imagebutton_back_climate_control_configuration"
+            style="@style/SelectableItemBackground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="backcontrolbutton"
+            android:src="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView_climate_control_cofiguration_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Climate Control Configuration"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/climate_control_tab_layout"
+        style="@style/MyTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#CCCCCC"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="@android:color/transparent"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#000"
+        app:tabTextColor="@color/White"
+        android:layout_below="@+id/tolbarlayout"
+        android:layout_alignParentStart="true" />
+
+    <hyundai.esds.CustomViewPager
+        android:id="@+id/climate_control_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/climate_control_tab_layout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</RelativeLayout>

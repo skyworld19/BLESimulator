@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_temperature.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please set the internal \ntemperature of the vehicle"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:textColor="#000"
+        android:layout_above="@+id/seek_bar"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView4" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:background="@drawable/circle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView4" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_centerInParent="true"
+        android:background="#fff"
+        android:id="@+id/view" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24.5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:typeface="monospace"
+        android:layout_above="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/text_view_seekbar_progress" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SET"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:background="@android:color/transparent"
+        android:onClick="onTemperatureClick"
+        android:layout_alignBottom="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Temperature_button" />
+
+    <hyundai.esds.CircularSeekBar
+        android:id="@+id/seek_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="0dp"
+        app:circle_progress_color="@android:color/transparent"
+        app:circle_stroke_width="1dp"
+        app:circle_x_radius="125dp"
+        app:circle_y_radius="125dp"
+        app:end_angle="270"
+        app:max="100"
+        app:pointer_alpha_ontouch="100"
+        app:pointer_color="#0174DF"
+        app:pointer_halo_color="#880174DF"
+        app:progress="0"
+        app:start_angle="270"
+        app:use_custom_radii="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/front_checkbox"
+        android:checked="false"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Front"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:layout_alignBaseline="@+id/front_checkbox"
+        android:layout_alignBottom="@+id/front_checkbox"
+        android:layout_toEndOf="@+id/front_checkbox"
+        android:layout_marginStart="11dp"
+        android:id="@+id/textView6" />
+
+    <CheckBox
+        android:id="@+id/save_the_settings__checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:clickable="false"
+        android:visibility="invisible"
+        android:layout_alignEnd="@+id/text_view_seekbar_progress"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save the Setting"
+        android:textColor="#000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:visibility="invisible"
+        android:layout_alignBaseline="@+id/save_the_settings__checkbox"
+        android:layout_alignBottom="@+id/save_the_settings__checkbox"
+        android:layout_toEndOf="@+id/button" />
+
+</RelativeLayout>

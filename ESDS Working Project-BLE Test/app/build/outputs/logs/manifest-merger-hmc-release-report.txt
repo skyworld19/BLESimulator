@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e83c2e592a4011cc8d7c9bafe2f0baca\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+	package
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:3:5-27
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:1-101:12
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.bluetooth_le
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:5:5-7:35
+	android:required
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:7:9-32
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:6:9-53
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:10:5-74
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:10:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:12:5-85
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:12:22-82
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:14:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:16:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:19:5-67
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:19:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:20:5-65
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:20:22-63
+uses-permission#android.permission.WRITE_SMS
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.READ_SMS
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:23:5-70
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:23:22-67
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:24:22-69
+uses-feature#0x00020000
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:27:5-78
+	android:glEsVersion
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:27:19-51
+	android:required
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:27:52-75
+application
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:29:5-99:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e83c2e592a4011cc8d7c9bafe2f0baca\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e83c2e592a4011cc8d7c9bafe2f0baca\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:34:9-35
+	android:label
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:32:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:35:9-43
+	android:roundIcon
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:33:9-54
+	android:icon
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:31:9-47
+	android:allowBackup
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:30:9-35
+	android:theme
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:36:9-40
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:37:9-32
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:39:9-41:63
+	android:value
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:41:13-61
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:40:13-52
+activity#hyundai.esds.SplashScreen
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:43:9-51:20
+	android:screenOrientation
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:45:13-49
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:44:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:46:13-50:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:47:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:49:17-77
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:49:27-74
+activity#hyundai.esds.LoginScreen
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:52:9-54:52
+	android:screenOrientation
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:54:13-49
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:53:13-40
+activity#hyundai.esds.HomeScreen
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:55:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:57:13-49
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:56:13-39
+activity#hyundai.esds.fragments.LocationSharingMapViewActivity
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:59:9-61:52
+	android:screenOrientation
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:61:13-49
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:60:13-69
+activity#hyundai.esds.ControlPagerActivity
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:63:9-64:51
+	android:screenOrientation
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:64:13-49
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:63:19-55
+service#com.baidu.location.f
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:66:9-70:19
+	android:process
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:69:13-38
+	android:enabled
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:68:13-35
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:67:13-48
+service#hyundai.esds.RBLService
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:72:9-74:38
+	android:enabled
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:74:13-35
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:73:13-39
+service#hyundai.esds.ServiceListener
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:76:9-89:19
+	android:enabled
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:78:13-35
+	android:exported
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:79:13-36
+	android:permission
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:80:13-77
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:77:13-44
+intent-filter#android.intent.action.RESPOND_VIA_MESSAGE+android.intent.category.DEFAULT
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:81:13-88:29
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:82:17-76
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:82:27-73
+action#android.intent.action.RESPOND_VIA_MESSAGE
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:83:17-84
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:83:25-81
+data
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:84:17-46
+	android:scheme
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:84:23-43
+receiver#hyundai.esds.SmsBroadcastReceiver
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:91:9-95:20
+	android:exported
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:91:56-79
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:91:19-55
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:92:13-94:29
+	android:priority
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:92:28-50
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:93:17-82
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:93:25-79
+receiver#hyundai.esds.NotificationActionResponser
+ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:97:9-64
+	android:name
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml:97:19-62
+uses-sdk
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e83c2e592a4011cc8d7c9bafe2f0baca\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e83c2e592a4011cc8d7c9bafe2f0baca\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\krinlech\Desktop\InternProject\ESDS Working Project-BLE Test\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\6bf8d6434371d278c396c0c03d3c110d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\44b023682234f4288129e59715ffa70a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\c3f61e5ef11a1906036fd5fcca757161\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\98d1f961e7b9995cb0be271758a3d704\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\f9a81ed6f25f9dafce9da324ab5516ca\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\f65500cfe4303cf2c6c87d239d793d1e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d3f229411cf51eea10e0f13b32fdf104\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\05b41a6a04f9e2de0e0ca6663b7e6f12\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\ef0fa52e85117b5e871345ec8bda4f7d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\ceb4459de2a95c9b672944f557b20492\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\b000c400c21be5d69ab69b8b12d2f09f\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\4c6ab77b95d1d084421d2350bd2f9288\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\krinlech\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\3bb6e92c111209ef8533fcec9261cc03\AndroidManifest.xml:26:13-58

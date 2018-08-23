@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_reservation_vehicle.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/resrvation_vehuicle_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#33A4A4A4">
+
+        <ImageButton
+            android:id="@+id/imagebutton_back_reservation_vehicle_fragment"
+            style="@style/SelectableItemBackground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="backcontrolbutton"
+            android:src="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView_reservationVehicleFragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Reservation Vehicle"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/car_image"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:textColor="@color/Black"
+        android:text="@string/car_name"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="189dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:text="Duration:         "
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@+id/textView"
+            android:layout_marginEnd="39dp"
+            android:text="Start: 2017.05.09 12:00
+End: 2017.05.10 13:00"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView3"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="19dp"
+            android:layout_marginStart="17dp"
+            android:text="Pickup"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignStart="@+id/textView5"
+            android:text="Display Vehicle Location"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView4"
+            android:layout_marginTop="25dp"
+            android:layout_alignStart="@+id/textView2"
+
+            android:text="Return"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_alignStart="@+id/textView6"
+            android:text="Display Vehicle's current Address"
+            android:textColor="@color/Black"/>
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="33dp"
+            android:text="Payment"
+            android:textColor="@color/Black"/>
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_alignStart="@+id/textView7"
+            android:text="Register Credit Card"
+            android:textColor="@color/Black"/>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="1dp"
+            android:layout_height="400dp"
+            android:layout_alignEnd="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="16dp"
+            android:background="#aeabab"/>
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:layout_above="@+id/textView6"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentStart="true"
+            android:background="#aeabab"/>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:layout_above="@+id/textView7"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentStart="true"
+            android:background="#aeabab"/>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="400dp"
+            android:layout_height="1dp"
+            android:layout_alignBottom="@+id/textView7"
+            android:layout_alignParentStart="true"
+            android:background="#aeabab"/>
+    </RelativeLayout>
+</LinearLayout>

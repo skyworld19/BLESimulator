@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: Hyundai iblue Mobile App Development
+    ** Target: Car Audio Control Gen 4.0 and D Audio platforms supported
+    ** File Name: slide_up.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 21-08-2017
+    ****************************************************************************************/
+  -->
+
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <translate
+        android:duration="500"
+        android:fromYDelta="100%"
+        android:toYDelta="0" />
+</set>

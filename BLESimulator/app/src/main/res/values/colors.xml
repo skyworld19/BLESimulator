@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">@color/pointColor</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="hotpink">#ff8c8c</color>
+    <color name="darkgrey">#1f1f1f</color>
+    <color name="backgroundColor">@color/black</color>
+    <color name="pointColor">@color/hotpink</color>
+    <color name="toolbarButtonColor">@color/white</color>
+    <color name="toolbarColor">@color/black</color>
+</resources>

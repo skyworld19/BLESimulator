@@ -1,0 +1,4 @@
+#Tue Aug 21 10:40:21 KST 2018
+base.0=C\:\\Users\\krinlech\\Desktop\\InternProject\\ESDS Working Project-BLE Test\\app\\build\\intermediates\\transforms\\dex\\hmc\\release\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\krinlech\\Desktop\\InternProject\\ESDS Working Project-BLE Test\\app\\build\\intermediates\\transforms\\dex\\hmc\\release\\0\\classes.dex

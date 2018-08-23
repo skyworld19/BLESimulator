@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_account_sharing.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vertical">
+
+    <RelativeLayout
+        android:id="@+id/account_sharing_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33A4A4A4">
+
+        <ImageButton
+            android:id="@+id/imagebutton_back_account_sharing_fragment"
+            style="@style/SelectableItemBackground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="backcontrolbutton"
+            android:src="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView_accountsharingfragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/account_sharing"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/share_status_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/account_sharing_toolbar_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Send to"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+    <RelativeLayout
+        android:id="@+id/send_to_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/share_status_text_view"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/send_to_image_view"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:background="@drawable/image_view_background"
+            android:scaleType="fitXY"
+            android:src="@drawable/no_image_available" />
+
+        <ImageButton
+            android:id="@+id/image_button_contacts"
+            style="@style/SelectableItemBackground"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="139dp"
+            android:layout_toEndOf="@+id/send_to_edit_phone"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:scaleType="fitCenter"
+            android:src="@drawable/contacts" />
+
+
+        <TextView
+            android:id="@+id/send_to_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/image_button_contacts"
+            android:layout_marginStart="13dp"
+            android:gravity="center"
+            android:text="Phone\nNumber"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/send_to_edit_phone"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_above="@+id/send_to_duration"
+            android:layout_marginStart="6dp"
+            android:layout_toEndOf="@+id/send_to_grant_authority"
+            android:background="@drawable/rounded_corner_edit_text"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/send_to_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/send_to_phone_number"
+            android:layout_below="@+id/send_to_phone_number"
+            android:layout_marginTop="35dp"
+            android:gravity="center"
+            android:text="Duration"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/edit_duration_from"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/send_to_duration"
+            android:layout_alignBottom="@+id/send_to_duration"
+            android:layout_alignStart="@+id/send_to_edit_phone"
+            android:background="@drawable/rounded_corner_edit_text"
+            android:enabled="true"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/edit_duration_to"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_alignStart="@+id/edit_duration_from"
+            android:layout_below="@+id/edit_duration_from"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_edit_text"
+            android:enabled="true"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+
+
+        <TextView
+            android:id="@+id/send_to_grant_authority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/send_to_duration"
+            android:layout_below="@+id/edit_duration_to"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Grant of \nauthority"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+        <CheckBox
+            android:id="@+id/check_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/send_to_grant_authority"
+            android:layout_alignBottom="@+id/send_to_grant_authority"
+            android:layout_alignStart="@+id/edit_duration_from"
+            android:checked="false"
+            android:onClick="check"
+            android:text="Lock"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/check_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/send_to_grant_authority"
+            android:layout_alignBottom="@+id/send_to_grant_authority"
+            android:layout_marginStart="22dp"
+            android:layout_toEndOf="@+id/check_lock"
+            android:checked="false"
+            android:text="Unlock"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+
+        <CheckBox
+            android:id="@+id/check_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/check_unlock"
+            android:layout_alignBottom="@+id/check_unlock"
+            android:layout_marginStart="16dp"
+            android:layout_toEndOf="@+id/check_unlock"
+            android:checked="false"
+            android:text="Light"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/check_horn_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/check_lock"
+            android:layout_below="@+id/send_to_grant_authority"
+            android:checked="false"
+            android:text="Horn\nLight"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/check_engine_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/check_horn_light"
+            android:layout_alignBottom="@+id/check_horn_light"
+            android:layout_alignStart="@+id/check_unlock"
+            android:checked="false"
+            android:text="Engine\nStart"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <CheckBox
+            android:id="@+id/check_engine_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/check_engine_start"
+            android:layout_alignBottom="@+id/check_engine_start"
+            android:layout_alignStart="@+id/check_light"
+            android:checked="false"
+            android:text="Engine\nStop"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+        <Button
+            android:id="@+id/sedn_to_approve_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="52dp"
+            android:background="@drawable/rounded_corner_approve_button"
+            android:elevation="25dp"
+            android:text="Approve"
+            android:textAllCaps="false"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:targetApi="lollipop"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/received_from_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/share_status_text_view"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/phone_tview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="73dp"
+            android:gravity="center"
+            android:text="Phone\nNumber"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/rec_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/phone_tview"
+            android:layout_alignBottom="@+id/phone_tview"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@+id/phone_tview"
+            android:gravity="center"
+            android:text="Phone\nNumber"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/c_t_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/phone_tview"
+            android:layout_below="@+id/phone_tview"
+            android:layout_marginTop="44dp"
+            android:gravity="center"
+            android:text="Controls received are:"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/controls_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/c_t_view"
+            android:layout_below="@+id/c_t_view"
+            android:layout_marginTop="31dp"
+            android:text="Controls received received areare:"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="HardcodedText" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

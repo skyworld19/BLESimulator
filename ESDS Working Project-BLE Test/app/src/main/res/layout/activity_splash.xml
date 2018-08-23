@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: activity_splash.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vertical"
+    android:elevation="30dp"
+    android:id="@+id/splash_relative_layout"
+    tools:context="hyundai.esds.SplashScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:contentDescription="imageView"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        app:srcCompat="@drawable/splash_connected_logo"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:contentDescription="imageView2"
+        android:paddingRight="20dp"
+        app:srcCompat="@drawable/splash_car_image"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:contentDescription="imageView5"
+        app:srcCompat="@drawable/spalsh_hyndai_logo"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/LightSlateGray"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:id="@+id/permission_access_layout"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/permission_access_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Need permission to access location to find nearby BLE devices"
+            android:layout_centerVertical="true"
+            android:layout_alignStart="@+id/permission_access_button"
+            android:textColor="@color/FloralWhite"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/permission_access_button" />
+
+        <Button
+            android:id="@+id/permission_access_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Allow"
+            android:textAllCaps="false"
+            android:textColor="@color/Black"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

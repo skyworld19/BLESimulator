@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+   /****************************************************************************************
+    ** Hyundai Motor India Engineering Pvt Ltd
+    ** Electronics Engineering Dept-1., - Software Development Team
+    ** Do Not Copy Without Prior Permission
+    *****************************************************************************************
+    ** Project Name: ESDS Development
+    ** Target: Proof Of Concept (NU Head Unit)
+    ** File Name: fragment_location_sharing.xml
+    ** @Author: Sivaram Boina
+    ** @Co-Author: Sai Sriram Madhiraju
+    ** Completion Date: 31-10-2017
+    ****************************************************************************************/
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/layout_location_sharing"
+    android:background="@drawable/vertical"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/location_sharing_toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#33A4A4A4">
+
+        <ImageButton
+            android:id="@+id/imagebutton_back_location_sharing_fragment"
+            style="@style/SelectableItemBackground"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="backcontrolbutton"
+            android:src="?attr/homeAsUpIndicator" />
+
+        <TextView
+            android:id="@+id/textView_locationsharingfragmentTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Location Sharing"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/image_view_car_in_location_sharing"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/car_image"
+        android:contentDescription="imageView6"
+        android:layout_below="@+id/location_sharing_toolbar_layout"
+        android:layout_alignParentStart="true" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/image_view_car_in_location_sharing"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp">
+
+        <Button
+            android:id="@+id/button_check_vehicle_last_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check \nthe last \nvehicle location"
+            android:textAllCaps="false"
+            android:clickable="false"
+            android:textColor="@color/Gray"/>
+        <View
+            android:layout_width="10dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/button_send_vehicle_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send the \nvehicle location \nto new user"
+            android:layout_alignStart="@+id/button_check_vehicle_last_location"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
